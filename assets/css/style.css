@@ -86,7 +86,9 @@ h3 {
 
 /* Tablets and up */
 @media (min-width: 768px) {
-
+#action-2 {
+    text-align: end;
+}
 }
 
 /* Laptops and up */

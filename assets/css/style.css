@@ -51,7 +51,7 @@ h3 {
 
 /* Header */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat fixed;
     padding: 8rem 0;
 }
 

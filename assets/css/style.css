@@ -51,7 +51,7 @@ h3 {
 
 /* Header */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat scroll;
     padding: 8rem 0;
 }
 
@@ -63,6 +63,16 @@ h3 {
     color: #fff;
 }
 
+/* Signs */
+
+.signs {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/help.png') center top/cover no-repeat scroll;
+    padding: 8rem 2rem;
+}
+
+.signs h2 {
+    color: #fff;
+}
 
 /* Media Queries */
 

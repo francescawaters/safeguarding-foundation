@@ -29,6 +29,17 @@ h3 {
     color: var(--primary-color);
 }
 
+/* Buttons */
+
+.btn-primary {
+    background-color: var(--highlight-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
 /* Navigation */
 .navbar-custom .nav-link {
     color: #1A3B5D;
@@ -38,6 +49,21 @@ h3 {
     font-weight: bold;
 }
 
+/* Header */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat fixed;
+    padding: 8rem 0;
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.hero p {
+    color: #fff;
+}
+
+
 /* Media Queries */
 
 /* Mobile S/M */
@@ -45,5 +71,12 @@ h3 {
 @media (max-width: 425px) {
     #nav-title {
         display: none;
+    }
+}
+
+/* Laptops and up */
+@media (min-width: 992px) {
+    .btn-primary:hover {
+        background-color: var(--highlight-color-light);
     }
 }

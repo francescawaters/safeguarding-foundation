@@ -84,6 +84,11 @@ h3 {
     }
 }
 
+/* Tablets and up */
+@media (min-width: 768px) {
+
+}
+
 /* Laptops and up */
 @media (min-width: 992px) {
     .btn-primary:hover {

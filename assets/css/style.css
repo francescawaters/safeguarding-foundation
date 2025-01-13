@@ -4,8 +4,8 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Lexend", sans-serif;
-    --secondary-font: "Macondo", cursive;
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Lexend", cursive;
     --primary-color: #1A3B5D;
     /* dark blue */
     --secondary-color: #7a9fc2;

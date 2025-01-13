@@ -11,9 +11,9 @@
     --secondary-color: #7a9fc2;
     /* light blue */
     --highlight-color: #8A6FA5;
-    /* blue */
+    /* purple */
     --highlight-color-light: #C8A3D9;
-    /* light blue */
+    /* light purple */
 }
 
 /* Global styles */
@@ -29,11 +29,20 @@ h3 {
     color: var(--primary-color);
 }
 
+/* Navigation */
+.navbar-custom .nav-link {
+    color: #1A3B5D;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+}
+
 /* Media Queries */
 
 /* Mobile S/M */
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     #nav-title {
         display: none;
     }

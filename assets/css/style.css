@@ -76,6 +76,11 @@ p {
 #principles p {
     color: var(--primary-color);
 }
+
+.card {
+    border: none;
+}
+
 /* Signs */
 
 .signs-header {

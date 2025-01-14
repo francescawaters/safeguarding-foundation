@@ -29,6 +29,10 @@ h3 {
     color: var(--primary-color);
 }
 
+p {
+    color: var(--primary-color);
+}
+
 /* Buttons */
 
 .btn-primary {
@@ -63,6 +67,15 @@ h3 {
     color: #fff;
 }
 
+/* Principles section */
+
+#principles h4 {
+    color: var(--highlight-color);
+}
+
+#principles p {
+    color: var(--primary-color);
+}
 /* Signs */
 
 .signs {

@@ -33,6 +33,11 @@ p {
     color: var(--primary-color);
 }
 
+hr {
+    margin: 5px 0;
+    border-top: 1px solid #3a3a3a;
+}
+
 /* Buttons */
 
 .btn-primary {
@@ -103,6 +108,40 @@ p {
     border-radius: 0.25rem;
 }
 
+/* Action Steps Section */
+
+#action {
+    margin: 20px auto;
+    width: 90%;
+
+}
+
+#action h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#action h4 {
+    color: var(--highlight-color);
+}
+
+#steps p {
+    padding: 0 20px;
+}
+
+#action1>div,
+#action2>div {
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+#action-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Media Queries */
 
 /* Mobile S/M */
@@ -115,14 +154,53 @@ p {
 
 /* Tablets and up */
 @media (min-width: 768px) {
-#action-2 {
-    text-align: end;
-}
+
+    #action1,
+    #action2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #action1>div,
+    #action2>div {
+        width: 75%;
+    }
+
+    #action2>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Laptops and up */
 @media (min-width: 992px) {
     .btn-primary:hover {
         background-color: var(--highlight-color-light);
+    }
+
+    #steps {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #steps>div {
+        flex: 1;
+    }
+
+    #action-image {
+        order: 0;
+    }
+
+    #action2 {
+        order: 1;
+    }
+
+    #action2>div {
+        align-self: flex-start;
+    }
+
+    #action1>div {
+        align-self: flex-end;
     }
 }

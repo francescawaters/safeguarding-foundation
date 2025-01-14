@@ -38,6 +38,12 @@ hr {
     border-top: 1px solid #3a3a3a;
 }
 
+.text-highlight p,
+.text-highlight h4,
+.text-highlight a {
+    color: var(--secondary-color);
+}
+
 /* Buttons */
 
 .btn-primary {
@@ -47,6 +53,14 @@ hr {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: var(--highlight-color);
+}
+
+.btn-outline-custom {
+    border: #7a9fc2 solid 1px;
 }
 
 /* Navigation */

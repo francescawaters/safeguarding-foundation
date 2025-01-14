@@ -55,7 +55,7 @@ p {
 
 /* Header */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../images/hero.png') left center/cover no-repeat scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../images/hero.png') left center/cover no-repeat scroll;
     padding: 8rem 0;
 }
 
@@ -78,13 +78,24 @@ p {
 }
 /* Signs */
 
+.signs-header {
+    background: var(--primary-color);
+    padding: 4rem 0;
+}
+
 .signs {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/help.png') center top/cover no-repeat scroll;
+    background: url('../images/help.png') center top/cover no-repeat scroll;
     padding: 8rem 2rem;
 }
 
 .signs h2 {
     color: #fff;
+}
+
+.bg-signs {
+    background: linear-gradient(rgb(255, 255, 255, 0.9), rgba(122, 159, 194, 0.9));
+    padding: 1rem;
+    border-radius: 0.25rem;
 }
 
 /* Media Queries */

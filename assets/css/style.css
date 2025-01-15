@@ -46,13 +46,6 @@ hr {
     border-top: 1px solid #3a3a3a;
 }
 
-.text-highlight p,
-.text-highlight h4,
-.text-highlight a {
-    color: var(--highlight-color-light);
-}
-
-
 /* Buttons */
 
 .btn-primary {
@@ -101,7 +94,7 @@ hr {
 
 /* Header */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url('../images/hero.png') left center/cover no-repeat scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../images/hero.png') left center/cover no-repeat scroll;
     padding: 8rem 0;
 }
 
@@ -199,6 +192,15 @@ hr {
 .success-image {
     height: 50vh;
 }
+
+/* Footer */
+
+.text-highlight p,
+.text-highlight h4,
+.text-highlight a {
+    color: var(--highlight-color-light);
+}
+
 
 /* Media Queries */
 

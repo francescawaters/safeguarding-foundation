@@ -6,7 +6,13 @@ This website has been create to fulfil the project brief for Code Institutes fir
 Safeguarding Foundation is a fully responsive static HTML and CSS website that aims to inform those interested in learning about adult safeguarding and what to do if you recognise a safeguarding issue.
 
 ## __Wireframes__
+Before starting the project I created a couple basic wireframes to have an idea of what my final product would look like. I created a mobile wireframe and a desktop wireframe.
 
+<img>
+
+![Mobile wireframe](/assets/images/mobile.png) ![desktop wireframe](/assets/images/desktop.png)
+
+---
 ## __Features__
 There are several features on this website, and we will now take a closer look at them.
 ### __Existing Features__

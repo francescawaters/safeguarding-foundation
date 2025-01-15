@@ -137,7 +137,7 @@ hr {
 }
 
 .bg-signs {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(122, 159, 194, 0.9));
+    background: rgba(255, 255, 255, 0.95);
     padding: 1rem;
     border-radius: 0.25rem;
 }

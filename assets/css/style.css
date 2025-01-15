@@ -128,6 +128,10 @@ hr {
     border-radius: 0.25rem;
 }
 
+#signs li {
+    color: var(--primary-color);
+}
+
 /* Action Steps Section */
 
 #action {
@@ -161,6 +165,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Form */
+
+#contact label {
+    color: var(--primary-color);
 }
 
 /* Success Page */

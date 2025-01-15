@@ -164,6 +164,12 @@ hr {
     justify-content: center;
 }
 
+/* Success Page */
+
+.success-image {
+    height: 50vh;
+}
+
 /* Media Queries */
 
 /* Mobile S/M */

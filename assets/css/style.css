@@ -5,7 +5,7 @@
 /* CSS Variables */
 :root {
     --primary-font: "Inter", sans-serif;
-    --secondary-font: "Lexend", cursive;
+    --secondary-font: "Rethink Sans", sans-serif;
     --primary-color: #1A3B5D;
     /* dark blue */
     --highlight-color: #3A5E7E;
@@ -23,7 +23,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
@@ -207,6 +208,15 @@ hr {
 @media (max-width: 425px) {
     #nav-title {
         display: none;
+    }
+}
+
+
+/* Tablets only */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    h4 {
+        font-size: 1.25rem;
     }
 }
 

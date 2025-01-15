@@ -75,7 +75,7 @@ hr {
 /* Main Content */
 
 .section {
-    padding-top: 6rem;
+    padding-top: 5rem;
 }
 
 /* Header */
@@ -115,7 +115,7 @@ hr {
 
 .signs {
     background: url('../images/help.png') center top/cover no-repeat scroll;
-    padding: 8rem 2rem;
+    padding: 6rem 0;
 }
 
 .signs h2 {
@@ -133,6 +133,7 @@ hr {
 #action {
     margin: 20px auto;
     width: 90%;
+    padding-top: 5rem;
 
 }
 

@@ -8,12 +8,10 @@
     --secondary-font: "Lexend", cursive;
     --primary-color: #1A3B5D;
     /* dark blue */
-    --secondary-color: #7a9fc2;
+    --highlight-color: #3A5E7E;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
     /* light blue */
-    --highlight-color: #5E4974;
-    /* purple */
-    --highlight-color-light: #C8A3D9;
-    /* light purple */
 }
 
 /* Global styles */

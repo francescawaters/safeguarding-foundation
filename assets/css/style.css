@@ -45,6 +45,7 @@ hr {
     color: var(--secondary-color);
 }
 
+
 /* Buttons */
 
 .btn-primary {
@@ -71,6 +72,12 @@ hr {
 
 .navbar-custom .nav-link.active {
     font-weight: bold;
+}
+
+/* Main Content */
+
+.section {
+    padding-top: 6rem;
 }
 
 /* Header */

@@ -83,10 +83,10 @@
                     <div class="col-md-12">
 
                         <h2>What is safeguarding?</h2>
-                        <p>Safeguarding for adults is about protecting an adult's right to live in safety, free from
-                            abuse and neglect. It involves organizations and professionals working together to prevent
-                            and stop the risks and experiences of abuse or neglect, considering the adult's wishes,
-                            feelings, and well-being.</p>
+                        <p>Safeguarding adults is dedicated to ensuring an adult's right to safety, free from abuse and
+                            neglect. It involves collaboration among organizations and professionals to prevent and
+                            address the risks and experiences of abuse or neglect, all while considering the adult's
+                            personal desires, feelings, and overall well-being</p>
                     </div>
                 </div>
                 <!-- 6 Principles Section -->
@@ -109,8 +109,9 @@
                             <img src="assets/images/prevention.png" class="card-img-top" alt="Prevention">
                             <div class="card-body">
                                 <h4 class="card-title text-uppercase">Prevention</h4>
-                                <p class="card-text">It is better to take action before harm occurs. Proactive measures
-                                    reduce the likelihood of abuse or neglect, fostering a safer environment for all.
+                                <p class="card-text">Proactive measures
+                                    reduce the likelihood of abuse or neglect, fostering a safer environment for all. It
+                                    is better to take action before harm occurs.
                                 </p>
                             </div>
                         </div>
@@ -251,7 +252,7 @@
                     <div class="my-4">
                         <h4>Step 1: Identify the Issue <i class="fa-solid fa-magnifying-glass"></i></h4>
                         <hr>
-                        <p>Recognize and acknowledge the signs of safeguarding issues.</p>
+                        <p>Recognise and acknowledge the signs of safeguarding issues.</p>
                     </div>
                     <div class="my-4">
                         <h4>Step 2: Report the Concern <i class="fa-solid fa-circle-exclamation"></i></i></h4>
@@ -273,7 +274,7 @@
                 </div>
                 <div class="text-center">
                     <img id="action-image" class="rounded-circle mx-auto" src="assets/images/action-steps.png"
-                        width="200" alt="Action Steps">
+                        width="300" alt="Action Steps">
                 </div>
             </div>
         </section>
@@ -283,8 +284,10 @@
         <section id="contact" class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <h2>Contact Us</h2>
-                    <p>We are here to answer questions for safeguarding support.</p>
+                    <h2>Contact Us <img src="assets/images/logo.png" alt="Logo" class="rounded-circle" width="50px">
+                    </h2>
+                    <p>We're here to provide information and support on safeguarding. If you have any questions or need
+                        assistance, don't hesitate to reach out.</p>
                     <form action="success.html" method="GET">
                         <div class="row">
                             <div class="col-lg-6 mb-3">
@@ -314,13 +317,20 @@
             <div class="row">
                 <div class="text-center p-3 ">
                     <h4 class="text-uppercase">Follow Us</h4>
-                    <a href="#" class="btn btn-outline-custom btn-floating m-1" role="button"><i
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"
+                        class="btn btn-outline-custom btn-floating m-1" role="button"><i
                             class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-outline-custom btn-floating m-1" role="button"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="#" class="btn btn-outline-custom btn-floating m-1" role="button"><i
+                    <a href="https://x.com/?lang=en" target="_blank" rel="noopener"
+                        aria-label="Visit our X page (opens in a new tab)"
+                        class="btn btn-outline-custom btn-floating m-1" role="button"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"
+                        class="btn btn-outline-custom btn-floating m-1" role="button"><i
                             class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-outline-custom btn-floating m-1" role="button"><i
+                    <a href="https://www.linkedin.com" target="_blank" rel="noopener"
+                        aria-label="Visit our LinkedIn page (opens in a new tab)"
+                        class="btn btn-outline-custom btn-floating m-1" role="button"><i
                             class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="text-center p-3">
@@ -337,6 +347,29 @@
     </script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bf5526169d.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
+
 </body>
 
 </html>

@@ -60,13 +60,14 @@
     </nav>
 
     <!-- Main -->
-     <main>
+    <main>
         <section id="success" class="container-fluid text-center">
             <div class="row">
                 <div class="col-lg-12 my-4">
                     <h2 class="text-uppercase">Thank you for your submission!</h2>
                     <p>We will get back to you as soon as possible.</p>
-                    <button class="btn btn-primary btn-lg" onclick="window.location.href='index.html'">Back to Home</button>
+                    <button class="btn btn-primary btn-lg" onclick="window.location.href='index.html'">Back to
+                        Home</button>
                 </div>
             </div>
             <div class="row">
@@ -106,6 +107,29 @@
     </script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/bf5526169d.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
+
 </body>
 
 </html>

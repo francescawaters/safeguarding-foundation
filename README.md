@@ -73,6 +73,33 @@ The website includes several features, which are detailed below.
 
 ## __Testing__
 
+### __Code Validation__
+
+All HTML and CSS code was validated using the W3C Markup Validation Service and W3C CSS Validation Service, respectively. The results are as follows:
+
+__HTML Validation:__
+- Two errors were found in the HTML code. All elements are properly nested and closed, ensuring a well-structured document.
+
+![HTML Validation](/assets/images/HTMLvalidation.png)
+
+__CSS Validation:__
+- No errors were found in the CSS code. All styles are correctly applied, and there are no syntax errors.
+
+### __Lighthouse Testing__
+
+Lighthouse was used to test the performance, accessibility, best practices, and SEO of the website. The results are as follows:
+
+__Index.html:__
+    - Performance impacted by image sizes.
+
+![Lighthouse Report](/assets/images/lighthouse-index.png)
+
+__Success.html:__
+
+![Lighthouse Report](/assets/images/lighthouse-success.png)
+
+- Accessibility scores show that it is highly accessible to users with disabilities. Minor improvements can be made by ensuring all interactive elements are keyboard accessible.
+
 ## __Deployment__
 
 This project was deployed on GitHub. Below are the steps followed to deploy the website:
@@ -84,3 +111,15 @@ This project was deployed on GitHub. Below are the steps followed to deploy the 
 
 The live link can be found here: 
 
+## __Credits__
+
+### __Content__
+- The content for this website was created by
+    -  Copilot
+    - https://www.kent.gov.uk/social-care-and-health/adult-social-care/adult-safeguarding
+    - https://www.ncvo.org.uk/help-and-guidance/safeguarding/
+    - https://www.scie.org.uk/safeguarding/adults/introduction/what-is/
+
+### __Media__
+- All images used in this project were generated using DALL-E and are used with permission.
+- Icons used in the navigation bar and footer are from [Font Awesome](https://fontawesome.com/).

@@ -204,7 +204,7 @@ hr {
 
 /* Media Queries */
 
-/* Mobile devices (max-width: 425px) */
+/* Mobile devices only (max-width: 425px) */
 
 @media (max-width: 425px) {
 
@@ -225,6 +225,10 @@ hr {
 /* Tablets only */
 
 @media (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
     h4 {
         font-size: 1.25rem;
     }

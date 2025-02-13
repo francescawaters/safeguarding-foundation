@@ -1,6 +1,8 @@
 # __Portfolio Project 1 - Safeguarding Foundation__
 This website has been created to fulfill the project brief for Code Institute's first individual assessment.
 
+The live link can be found here: [Safeguarding Foundation](https://francescawaters.github.io/safeguarding-foundation/)
+
 ## __Description__
 Safeguarding Foundation is a fully responsive static HTML and CSS website designed to inform those interested in learning about adult safeguarding and what to do if a safeguarding issue is recognized.
 
@@ -129,9 +131,7 @@ This project was deployed on GitHub. Below are the steps followed to deploy the 
 2. Scroll down until GitHub Pages is found.
 3. From the source section drop-down menu, select the main branch.
 4. Once the main branch has been selected, hit the save button.
-5. Finally, when the page is refreshed, a detailed ribbon display will indicate the successful deployment.
-
-The live link can be found here: 
+5. Finally, when the page is refreshed, a detailed ribbon display will indicate the successful deployment. 
 
 ## __Credits__
 
